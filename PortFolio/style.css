@@ -1,0 +1,135 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+section:hover {
+    transform: scale(1.05);
+    background-color: #dfe6e9;
+}
+
+#about img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+    transition: transform 0.3s;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #e74c3c;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #c0392b;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#skills ul li:hover {
+    background-color: #c0392b;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+#projects .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project img:hover {
+    transform: scale(1.1);
+}
+
+#resume a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 2px solid #2980b9;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #2980b9;
+    color: #ecf0f1;
+}
+
+#contact p {
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+#contact p:hover {
+    color: #2980b9;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+footer:hover {
+    background-color: #34495e;
+}
